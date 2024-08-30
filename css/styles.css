@@ -36,9 +36,8 @@ img {
     max-width: 100%;
     display: block;
 }
-
-
-.contenedor {
+/* SELECTOR DE ATRIBUTO EJEMPLO */
+[class$="__contenedor"] {
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
@@ -67,11 +66,6 @@ img {
     .header {
         background-size: 110rem;
     }
-}
-.header__contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
 }
 
 @media (min-width: 768px) { 
@@ -150,5 +144,26 @@ img {
 @media (min-width: 768px) { 
     .navegacion__link {
         color: var(--blanco);
+    }
+}
+
+.nucleus {
+    margin-top: 3rem;
+}
+.nucleus__heading {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.nucleus__grid {
+    display: flex;
+    flex-direction: column-reverse; 
+}
+@media (min-width: 768px) { 
+    .nucleus__grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 5rem;
+        align-items: center;
     }
 }
