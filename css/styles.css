@@ -147,6 +147,8 @@ img {
     }
 }
 
+/* SECCION NUCLEUS */
+
 .nucleus {
     margin-top: 3rem;
 }
@@ -167,6 +169,8 @@ img {
         align-items: center;
     }
 }
+
+/* SECCION LISTADO */
 .listado {
 
 }
