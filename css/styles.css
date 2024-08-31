@@ -219,8 +219,8 @@ img {
 }
 .seguridad:after {
     bottom: -10rem;
-    left: 0;
-    transform: rotate(-3deg);
+    left: -5rem;
+    transform: rotate(3deg);
 }
 .seguridad__heading {
     color: var(--blanco);
